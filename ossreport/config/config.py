@@ -74,14 +74,13 @@ class Config(object):
 
     @output_file.setter
     def output_file(self, name):
-        if not isinstance(name, str):
+        if not isinstance(name, str) or len(name.strip()) == 0:
             raise ConfigException("output invalid")
         name = name.strip()
-        if len(name) != 0:
-            if not name.endswith(".pdf") and not name.endswith(".xlsx"):
-                raise ConfigException("suffix invalid")
-            if os.path.exists(name):
-                raise ConfigException("%s already exist" % name)
+        if not name.endswith(".pdf") and not name.endswith(".xlsx"):
+            raise ConfigException("suffix invalid")
+        if os.path.exists(name):
+            raise ConfigException("%s already exist" % name)
         self._output_file = name
 
     @property
