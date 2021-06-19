@@ -1,0 +1,285 @@
+{
+"k8s/scanner_output.txt.wfp":[{
+"id":"none"
+}]
+,
+"k8s/scanner_output.txt":[{
+"id":"none"
+}]
+,
+  "k8s/certificate_controller.go": [
+    {
+      "id": "snippet",
+      "lines": "153-188,130-143,100-121,67-86,4-21",
+      "oss_lines": "167-202,143-156,114-135,81-100,18-35",
+      "matched": "55%",
+      "purl": [
+        "pkg:github/kubernetes/kubernetes"
+      ],
+      "vendor": "kubernetes",
+      "component": "kubernetes",
+      "version": "1.14.6",
+      "latest": "1.14.6",
+      "url": "https://github.com/kubernetes/kubernetes/archive/v1.14.6.zip",
+      "release_date": "2019-08-19",
+      "file": "kubernetes-1.14.6/pkg/controller/certificates/certificate_controller.go",
+      "url_hash": "01720e73882fdbb2f7fc82d44e9a1f32",
+      "file_hash": "152a59535710f6264c7e1169829689fb",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "Apache-2.0",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/Apache-2.0.txt",
+          "copyleft": "no",
+          "patent_hints": "yes",
+          "source": "component_declared"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "Copyright 2016 The Kubernetes Authors.",
+          "source": "file_header"
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2019-11250",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2019-11250",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2019-11251",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2019-11251",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2019-11252",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2019-11252",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2019-11253",
+          "severity": "HIGH",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2019-11253",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2019-11254",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2019-11254",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8552",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8552",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8554",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8554",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8555",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8555",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8557",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8557",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8558",
+          "severity": "HIGH",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8558",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8559",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8559",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.14.6:beta0:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8563",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.14.6",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8563",
+          "source": "nvd"
+        }
+      ],
+      "quality": [
+        {
+          "score": "3/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.2.0",
+        "flags": "512",
+        "elapsed": "0.507492s"
+      }
+    }
+  ]
+  ,
+  "k8s/abac.go": [
+    {
+      "id": "snippet",
+      "lines": "205-258,104-114,66-95,29-52",
+      "oss_lines": "214-267,107-117,67-96,29-52",
+      "matched": "43%",
+      "purl": [
+        "pkg:github/kubernetes/kubernetes"
+      ],
+      "vendor": "kubernetes",
+      "component": "kubernetes",
+      "version": "1.16.12",
+      "latest": "1.16.12",
+      "url": "https://github.com/kubernetes/kubernetes/archive/v1.16.12.zip",
+      "release_date": "2020-06-26",
+      "file": "kubernetes-1.16.12/pkg/auth/authorizer/abac/abac.go",
+      "url_hash": "05f6138cd649be7e357d02a3bff492af",
+      "file_hash": "32e25a1358d816dbe44e23cd4e3e1dce",
+      "dependencies": [],
+      "licenses": [
+        {
+          "name": "Apache-2.0",
+          "obligations": "https://www.osadl.org/fileadmin/checklists/unreflicenses/Apache-2.0.txt",
+          "copyleft": "no",
+          "patent_hints": "yes",
+          "source": "component_declared"
+        }
+      ],
+      "copyrights": [
+        {
+          "name": "Copyright 2014 The Kubernetes Authors.",
+          "source": "file_header"
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.16.12:-:*:*:*:*:*:*",
+          "CVE": "CVE-2019-11252",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.16.12",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2019-11252",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.16.12:-:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8554",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.16.12",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8554",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.16.12:-:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8557",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.16.12",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8557",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.16.12:-:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8559",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.16.12",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8559",
+          "source": "nvd"
+        },
+        {
+          "ID": "cpe:2.3:a:kubernetes:kubernetes:1.16.12:-:*:*:*:*:*:*",
+          "CVE": "CVE-2020-8563",
+          "severity": "MEDIUM",
+          "reported": "",
+          "introduced": "",
+          "patched": "1.16.12",
+          "summary": "https://nvd.nist.gov/vuln/detail/CVE-2020-8563",
+          "source": "nvd"
+        }
+      ],
+      "quality": [
+        {
+          "score": "3/5",
+          "source": "best_practices"
+        }
+      ],
+      "cryptography": [],
+      "server": {
+        "hostname": "p9",
+        "version": "4.2.0",
+        "flags": "512",
+        "elapsed": "0.474625s"
+      }
+    }
+  ]
+
+
+}
