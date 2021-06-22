@@ -145,3 +145,10 @@ Project License can be found [here](LICENSE).
 
 - [reportlab-example](https://blog.csdn.net/bocai_xiaodaidai/article/details/102820431)
 - [reportlab-userguide](https://www.reportlab.com/docs/reportlab-userguide.pdf)
+
+
+
+### Seaborn
+
+- [seaborn-data](https://github.com/mwaskom/seaborn-data)
+- [seabarn-examples](http://seaborn.pydata.org/examples)
